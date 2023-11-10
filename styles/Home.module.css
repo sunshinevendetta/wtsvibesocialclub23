@@ -1,0 +1,749 @@
+.container {
+  min-width: 100%;
+  max-width: 1440px;
+  padding: 5rem 1rem;
+  min-height: 100vh;
+  max-height: 100vmax;
+  background-size: cover;
+}
+
+.gradientText0 {
+  font-size: small;
+  text-align: center;
+  position: relative;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: white;
+  z-index: 1;
+}
+
+.gradientText1 {
+
+  font-size: small;
+  text-align: center;
+  position: fixed;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: white;
+  z-index: 1;
+}
+
+.gradientText2 {
+
+  font-size: small;
+  text-align: center;
+  position: fixed;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: white;
+  z-index: 1;
+}
+
+.gradientText3 {
+
+  font-size: small;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: white;
+  z-index: 1;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+  text-decoration-color: #84309c;
+}
+
+.title {
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: left;
+}
+
+.connect {
+  margin-bottom: 2rem;
+}
+
+.description {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #555;
+  border-radius: 5px;
+  padding: 0.5em;
+  font-size: 1.1rem;
+}
+
+.grid {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: transparent;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 10px;
+  max-width: 440px;
+  overflow: hidden;
+  border: none;
+  border-radius: 20px;
+
+  transition: transform 0.2s ease;
+  position: relative;
+}
+
+.cardText {
+  display: flex;
+  position: relative;
+  padding: 1rem;
+  font-size: x-small;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.card img {
+  display:flex;
+  width: 100%;
+  height: auto;
+  border-radius: 8px 4px 0 0;
+  margin-bottom: 12px;
+  border: none;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  background-color: #272c34;
+  opacity: 80%;
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  margin: 0 0 0.75rem 0;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin-left: 0;
+  }
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .title {
+    font-size: 3rem;
+    line-height: 1.15;
+  }
+}
+
+.card,
+.footer {
+  border-color: #222;
+}
+.logo img {
+  filter: invert(1);
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  margin-top: 0px;
+  top: 0px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0rem;
+  background: #070707;
+  z-index: 9000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 2rem;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background: #070707;
+  z-index: 10000;
+}
+.navIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  cursor: pointer;
+}
+.navIconLabel {
+  font-size: 10px;
+  text-align: center;
+  color: white;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.nftClaim {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.nftCardContent {
+  display: flex;
+  background-color: #000;
+  opacity: 850%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10;
+  width: 100%;
+  padding: 0.1rem 0.1rem;
+}
+.nftCardContent p {
+  background-color: #000;
+  border-radius: 10px;
+  padding: 0.1rem;
+  font-size: xx-small;
+}
+
+.nftCard {
+  display: flex;
+  position: relative;
+ width: 300px; /* Example width */
+  height: 300px; 
+  border-radius: 20px;
+  overflow: auto;
+  background: #070707;
+  border: none;
+  border-radius: 20px;
+  transition: transform 0.2s ease;
+  position: relative;
+}
+.navIconContainer {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  gap: 10px; /* Adjust the gap between the icon and text */
+}
+.nftButton {
+  font-size: 1rem; 
+  padding: 1rem 1rem;
+  top: 0%;
+  margin: 0rem 0;
+  width: 100%; 
+  height: 100%;
+  background: #1d1d1d; 
+  color: white; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.nftButton:hover {
+  background-color: #309c39; 
+}
+.clanButton {
+  font-size: 1rem; 
+  padding: 1rem 1rem; 
+  margin: 0rem 0;
+  position: relative;
+  top: 85%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Offset the element by half its width and height */
+  width: 100%; /* Optional: if you want the text to be centered within a certain width */
+  text-align: center; /* Center align the text within its block */
+  background: #832e2e; 
+  color: white; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+.clanButton:hover {
+  background-color: #ff0000; 
+}
+.pText {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.75;
+  position: fixed;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Offset the element by half its width and height */
+  width: 100%; /* Optional: if you want the text to be centered within a certain width */
+  text-align: center; /* Center align the text within its block */
+}
+.buttonHome {
+  font-size: 1rem; 
+  padding: 1rem 1rem; 
+  margin: 0rem 0;
+  position: fixed;
+  top: 60%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Offset the element by half its width and height */
+  width: 100%; /* Optional: if you want the text to be centered within a certain width */
+  text-align: center; /* Center align the text within its block */
+  height: 10%;
+  background: #1d1d1d; 
+  color: white; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.buttonHome:hover {
+  background-color: #a3f44d; 
+}
+.clanButtonAccess {
+  font-size: 1rem; 
+  padding: 1rem 1rem; 
+  margin: 0rem 0;
+  position: relative;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Offset the element by half its width and height */
+  width: 100%; /* Optional: if you want the text to be centered within a certain width */
+  text-align: center; /* Center align the text within its block */
+  background: #1d1d1d; 
+  color: rgb(246, 54, 234); 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+.clanButtonAccess:hover {
+  background-color: #a3f44d; 
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat( 3, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 20px;
+  margin-top: 50px;
+  background-color: transparent;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  padding-top: 5vh; /* This will make the height equal to the width */
+  position: relative; /* Needed for padding-top to work */
+}
+
+.gridContainer div {
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.gridContainer div:hover {
+  transform: scale(1.2) translate(-1%);
+  transform-origin: center;
+  position: static;
+  animation: rainbow 8.1ms linear infinite;
+  z-index: 1000;
+}
+
+
+.unirseButton {
+  font-size: 1rem;
+  padding: 0rem 0rem;
+  margin: 0rem 0;
+  position: fixed; /* Change position to absolute */
+  bottom: 80%; /* Position the button 20% from the bottom */
+  left: 50%;
+  transform: translateX(-50%); /* Center it horizontally */
+  width: 100%; /* Adjust the width as needed */
+  animation: rainbow 2s linear infinite;
+  text-align: center;
+background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+/* Define the keyframes for the rainbow color animation */
+@keyframes rainbow {
+  0% {background-color: red;}
+  17% {background-color: orange;}
+  33% {background-color: yellow;}
+  50% {background-color: green;}
+  67% {background-color: blue;}
+  83% {background-color: indigo;}
+  100% {background-color: violet;}
+}
+
+/* Apply the animation on hover */
+.unirseButton:hover {
+  animation: rainbow 2s linear infinite;
+}
+
+.menu{
+  padding: 5rem 0;
+}
+
+.cardClan {
+  position: relative;
+  width: 20vmin;
+  height: 100%;
+  margin: 0.5rem;
+  border-radius: 30px;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.cardClan:hover {
+  transform: translateY(-5px) ; /* Adjusted hover effect to include rotation */
+}
+
+.cardClanImage {
+  width: 100%;
+  height: 100%;
+  object-fit: fill; 
+}
+
+.cardClanImage:hover {
+  transform: scale(1.1);
+}
+
+.cardClanText {
+  z-index: 10;
+  font-size: 4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.instructionContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+}
+.containerInst{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* This centers the children vertically */
+    align-items: center; /* This centers the children horizontally */
+    padding-top: 3rem;
+    min-height: 100vh; /* This makes sure the container is at least the height of the viewport */
+    background-color: #1a1a1a; /* Background color */
+  
+  
+}
+.connectedMenu {
+  position: relative; /* Fixed position */
+  min-height: auto;
+  left: 0;
+  right: 0;
+  bottom: 0; /* Align to bottom */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background: transparent; /* You might want to add a background to make it visible above other elements */
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow to the top of the menu */
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+.cardClan2 {
+position: relative;
+  width: 500px;
+  height: 100%;
+  margin: 0rem;
+  border-radius: 10px;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.cardClan2:hover {
+   transform: translateY(-5px) ; /* Adjusted hover effect to include rotation */
+  background-color: rgb(157, 255, 0); /* Light grey background on hover for contrast */
+}
+
+.cardClanImage2 {
+  display: flex;
+  background-color: #000;
+opacity: 850%;
+  width: 100%;
+  height: auto; /* Adjust height automatically */
+  object-fit: fill;
+}
+
+.cardClan3 {
+  display: flex;
+  position: relative;
+  border-radius: 20px;
+  overflow: auto;
+  background: #070707;
+  border: none;
+  border-radius: 20px;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+.cardClan3:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* More pronounced shadow on hover */
+  background-color: rgb(140, 210, 26); /* Light grey background on hover for contrast */
+}
+
+.cardClanImage3 {
+  display: flex;
+  background-color: #000;
+opacity: 850%;
+  width: 1%;
+  height: 10px; /* Adjust height automatically */
+  object-fit: cover;
+}
+
+
+
+.cardClanText2 {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 2rem;
+  font-size: 1rem;
+  width: fit-content;
+}
+.cardClan2:hover .cardClanText2 {
+  color: #1d1d1d; /* Dark color for the text when the card is hovered */
+}
+
+.connectedMenuButton {
+  z-index: 5;
+  font-size: 1rem; 
+  padding: 1rem 1rem; 
+  margin: 5rem 0;
+  position: relative;
+  top: 60%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Offset the element by half its width and height */
+  width: 100%; /* Optional: if you want the text to be centered within a certain width */
+  text-align: center; /* Center align the text within its block */
+  height: 10%;
+  background: black; 
+  color: white; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.connectedMenuButton:hover {
+  background-color: #a3f44d; 
+  color: black;
+}
+
+.connectedMenuText {
+  color: white;
+  margin: 1rem;
+  font-size: 1rem;
+  line-height: 1.75;
+  position: relative;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Offset the element by half its width and height */
+  width: 100%; /* Optional: if you want the text to be centered within a certain width */
+  text-align: center; /* Center align the text within its block */
+}
+.connectedMenuButton:hover .connectedMenuText {
+  color: black; /* This will change the text color to black on hover */
+}
+.buttonBack {
+  padding: 10px 20px;
+  background-image: linear-gradient(45deg, #5dfc6a, #94ef24);
+  border: none;
+  border-radius: 30px;
+  color: black;
+  font-size: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+  width: 100%;
+}
+  
+
+
+.buttonBack:hover {
+    background-image: linear-gradient(45deg, #78c953, #a8e245);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+  }
+
+  /* Add an active/click effect */
+  .buttonBack:active {
+    background-image: linear-gradient(45deg, #448e40, #5a37b8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+  }
+
+  .claimButton { 
+    /* Size and alignment */
+    padding: 10px 20px; /* Adjust padding to your liking */
+    font-size: 16px; /* Adjust font size to your liking */
+    border-radius: 5px; /* Rounded corners */
+    border: none; /* No border */
+    
+    /* Colors and background */
+    background: linear-gradient(45deg, rgb(174, 255, 0), rgb(34, 255, 0)); /* Gradient background */
+    color: white; /* Text color */
+    
+    /* Text styling */
+    font-weight: bold;
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 1px; /* Spacing between letters */
+    
+    /* Interaction */
+    cursor: pointer; /* Changes the cursor to a pointer */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    
+    /* Box shadow for depth */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+  .claimButton:hover {
+    /* Hover state */
+    background: linear-gradient(45deg, rgb(0, 238, 16), rgb(12, 225, 111)); /* Slightly darker gradient on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.24); /* Larger shadow on hover */
+  }
+  
+  .claimButton:active {
+    /* Active state (when the button is clicked) */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24); /* Smaller shadow to simulate pressing down */
+    transform: translateY(2px); /* Moves the button down slightly */
+  }
+  
+  /* Focus styles for accessibility */
+  .claimButton:focus {
+    outline: none; /* Removes default focus outline */
+    box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.4), 0 0 0 4px rgb(77, 255, 0); /* Custom focus style */
+  }
+  
+  /* Disable state */
+  .claimButton:disabled {
+    background: #ccc; /* Gray background for disabled state */
+    cursor: not-allowed; /* Shows a 'not allowed' cursor */
+    box-shadow: none; /* No shadow for disabled state */
+  }
+  .claimButton span.smallText {
+    /* Styling for smaller text */
+    font-size: 0.3em; /* Smaller font size */
+    margin-right: 5px; /* Spacing between the small text and the rest of the content */
+  }
+  .gridContainer2 {
+    display: grid;
+    width: max-content;
+    grid-template-columns: repeat( 1, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 20px;
+    margin-top: 50px;
+    background-color: transparent;
+    transition: transform 0.3s ease-in-out;
+    padding-top: 5vh; /* This will make the height equal to the width */
+    position: relative; /* Needed for padding-top to work */
+  }
+  
+  .gridContainer2 div {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .gridContainer2 div:hover {
+    transform: scale(1.5);
+  }
+
+  .nftGrid {
+    display: flex;
+    overflow-y: auto;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    padding-bottom: 100px;
+     margin-bottom: 50px;
+  }
+  
+  .nftColumn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .nftTitle {
+    writing-mode: vertical-lr; /* This makes the text go downwards */
+    transform: rotate(180deg); /* This flips the text so it reads from top to bottom */
+  }
+  .rewardsButtonContainer {
+    position: relative; /* Fixed positioning to keep it in view during scroll */
+    bottom: 125px; /* Adjust this value to move the button up or down */
+    z-index: 10; 
+  
+  }
+  
+  .rewardsButton {
+    padding: 10px 20px;
+    width: 100%;
+    position: relative;
+    background-color: #b7ff00; /* Example blue color */
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .rewardsButton:hover {
+ animation: rainbow 0.5s linear infinite;
+  }
+  
