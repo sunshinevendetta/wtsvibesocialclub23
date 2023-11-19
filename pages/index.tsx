@@ -37,7 +37,7 @@ const Home: NextPage = () => {
     const tokenId = uniqueCodes.indexOf(clanCode);
     if (tokenId !== -1 && !usedCodes.has(clanCode)) {
       setSelectedClanTokenId(tokenId);
-      setUsedCodes(new Set([...usedCodes, clanCode]));
+      setUsedCodes(prevUsedCodes => new Set(prevUsedCodes).add(clanCode));
     } else {
       alert('Código inválido o ya utilizado.');
       setSelectedClanTokenId(null);
