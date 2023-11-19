@@ -15,13 +15,13 @@ export default function NFTs() {
                 <>
                     <div className={styles.menu}>
                     <button className={styles.nftButton}> <Link href="/inst">Instrucciones</Link></button>
-                    <button className={styles.nftButton}><Link href="https://vibesocial.club/hhstore.html">Tienda</Link></button>
+                    <button className={styles.nftButton}><Link href="">Tienda</Link></button>
                     <button className={styles.nftButton}><Link href="/profile">Mi Perfil</Link></button>
-                    <button className={styles.nftButton}><Link href="/medallaclaim">Obtener Medallas</Link></button>
-                    <button className={styles.nftButton}><Link href="/medallas">Ver mis Medallas</Link></button>
+                    <button className={styles.nftButton}><Link href="/medallaclaim">Obtener Ticket</Link></button>
+                    <button className={styles.nftButton}><Link href="/medallas">Ver mis Tickets</Link></button>
                     <button className={styles.nftButton}><Link href="/portales">Portales</Link></button>
                     <button className={styles.nftButton}><Link href="/misiones">Misiones</Link></button>
-                    <button className={styles.nftButton}><Link href="https://vibesocial.club">Vibe Social Club Home</Link></button>
+                    <button className={styles.nftButton}><Link href="https://twitter.com/vibesocialclub">Vibe Social Club Home</Link></button>
                     
                     
                 </div>

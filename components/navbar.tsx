@@ -17,7 +17,7 @@ export default function Navbar() {
             </Link>
             <Link href="/profile" className={styles.navIcon}>
                 <Image src={"/profile-icon.png"} alt="" width={30} height={30}/>
-                <p className={styles.navIconLabel}>Mi Perfil</p>
+                <p className={styles.navIconLabel}>Perfil</p>
             </Link>
             <div className={styles.navIcon}>
             {address && (

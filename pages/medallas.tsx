@@ -18,7 +18,7 @@ export default function Medallas() {
 
     return (
       <div className={styles.container}>
-        <h1>Medallas</h1>
+        <h1>Tickets</h1>
         {ownedMedallasLoading ? (
           <p>Loading...</p>
         ) : (
@@ -33,7 +33,7 @@ export default function Medallas() {
               )
             })
           ) : (
-            <p>Sin Medallas todavía, date un rol para obtenerlas</p>
+            <p>Sin Ticket </p>
                 )
             )}
         </div>

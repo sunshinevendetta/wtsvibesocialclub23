@@ -15,7 +15,7 @@ const NFTs = () => {
   const address = useAddress();
 
   return (
-    <div className={`${styles.yourProfileContainerClass} fixed-background`} style={{ backgroundImage: `url('/bbprofile.png')` }}>
+    <div className={`${styles.yourProfileContainerClass} fixed-background`} style={{ backgroundImage: `url('/profile.png')` }}>
       {address ? (
         <>
           <div className={styles.nftGrid}>
