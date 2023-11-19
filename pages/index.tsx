@@ -94,7 +94,7 @@ const Home: NextPage = () => {
               <p>Felicidades ya tienes tu acceso para ${contractMetadata?.name}, nos vemos en Phonique en Palmas 555, Lomas de Chapultepec a las 10 pm.
               ***DRESS TO IMPRESS*** MANDATORY</p>
               <Link href="/medallas" passHref>
-                <button className={styles.clanButtonAccess}>Pulsa para ver tu ticket</button>
+                <button className={styles.clanButtonAccess}>Pulsa para ver tu invite</button>
               </Link>
             </>
           )}

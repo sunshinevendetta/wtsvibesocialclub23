@@ -21,7 +21,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.containerInst}>
       <div className={styles.instructionContainer}>
-        <h1>Instrucciones para conseguir tu ticket</h1>
+        <h1>Instrucciones para conseguir tu INVITE</h1>
 
         <div className={styles.cardClan2}>
           <img src="/chrome.png" alt="Iniciar sesión" className={styles.cardClanImage2} />
@@ -55,19 +55,19 @@ const Home: NextPage = () => {
 
         <div className={styles.cardClan2}>
           <img src="/secreta.png" alt="Página secreta" className={styles.cardClanImage2} />
-          <p className={styles.cardClanText2}>Una vez seleccionado, serás redirigido a una página secreta con la información del evento, tu ticket es un NFT por lo que debes mostrarlo directo de la plataforma al momento de llegar, NO SE ACEPTAN SCREENSHOTS.</p>
+          <p className={styles.cardClanText2}>Una vez seleccionado, serás redirigido a una página secreta con la información del evento, tu INVITE es un NFT por lo que debes mostrarlo directo de la plataforma al momento de llegar, NO SE ACEPTAN SCREENSHOTS.</p>
         </div>
 
         <div className={styles.cardClan2}>
           <img src="/stop.png" alt="Página secreta" className={styles.cardClanImage2} />
-          <p className={styles.cardClanText2}>NO SE ACEPTAN SCREENSHOTS COMO IDENTIFICACION TIENES QUE ABRIR LA APP Y MOSTRAR EL TICKET DIRECTO DE TU CELULAR SIN EXCEPCIONES.</p>
+          <p className={styles.cardClanText2}>NO SE ACEPTAN SCREENSHOTS COMO IDENTIFICACION TIENES QUE ABRIR LA APP Y MOSTRAR EL INVITE DIRECTO DE TU CELULAR SIN EXCEPCIONES.</p>
         </div>
         <div className={styles.cardClan2}>
           <img src="/stop.png" alt="Página secreta" className={styles.cardClanImage2} />
           <p className={styles.cardClanText2}>Los codigos son unicos no lo desperdicies SI INGRESAS UN CODIGO DEBES OBTENER TU PASE EN ESE MOMENTO, O EL CODIGO SE PIERDE.</p>
           <div className={styles.cardClan2}>
           <img src="/stop.png" alt="Página secreta" className={styles.cardClanImage2} />
-          <p className={styles.cardClanText2}>Al obtener tu ticket para este evento, tambien estas registrandote en Vibe Social Club, tu guia global donde la realidad aumentada, inteligencia artificial y web3 se unen para brindarte una experiencia extendida en el mundo real.</p>
+          <p className={styles.cardClanText2}>Al obtener tu INVITE para este evento, tambien estas registrandote en Vibe Social Club, tu guia global donde la realidad aumentada, inteligencia artificial y web3 se unen para brindarte una experiencia extendida en el mundo real.</p>
         </div>
         </div>
 
@@ -82,7 +82,7 @@ const Home: NextPage = () => {
                   />
                 ))
               ) : (
-                <p>Todavía no tienes ticket.</p>
+                <p>Todavía no tienes INVITE.</p>
               )}
             </div>
           </div>
